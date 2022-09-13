@@ -1,15 +1,15 @@
 ---
 title: "Lab 00 - Hello Class!"
 date: "2016-09-07 (updated `r Sys.Date()` by TL)"
-author: "Emily Love"
+author: "Tanzy Love"
 output: 
+  html_document:
+    self_contained: FALSE
   tufte::tufte_html:
     tufte_variant: "envisioned"
     highlight: pygments
     css: lab.css
     link-citations: yes
-    self_contained: FALSE
-  html_document:
     self_contained: FALSE
 ---
 
